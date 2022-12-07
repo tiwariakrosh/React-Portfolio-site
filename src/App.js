@@ -1,24 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar.jsx';
+import Hero from './components/Hero.jsx';
+import About from './components/About.jsx';
+import Service from './components/Service.jsx';
+import Skill from './components/Skill.jsx';
+import Project from './components/Project.jsx'
+import Contact from './components/Contact';
+import { createContext, useState } from 'react';
+import ReactSwitch from 'react-switch';
+
+export const ThemeContext = createContext(null);
 
 function App() {
+  const [theme, setTheme] = useState("light");
+
+  const toogleTheme = () => {
+    setTheme((curr) => (curr === "light" ? "dark" : "light"));
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeContext.Provider value={{ theme, toogleTheme }}>
+      <div className="App" id={theme}>
+        <Navbar />
+        <div className='switch'>
+          <label>{theme === "light" ? "Light Mode" : "Dark Mode"}</label>
+          <ReactSwitch onChange={toogleTheme} checked={theme === "dark"} />
+        </div>
+        <Hero />
+        <About />
+        <Service />
+        <Project name='Hello' />
+        <Skill />
+        <Contact />
+      </div>
+    </ThemeContext.Provider>
   );
 }
 
