@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio-site/static/css/main.5ffcab91.css",
-    "main.js": "/React-Portfolio-site/static/js/main.e747174e.js",
+    "main.css": "/React-Portfolio-site/static/css/main.7c4fb42c.css",
+    "main.js": "/React-Portfolio-site/static/js/main.35ba3b49.js",
     "static/media/R.P._foundation.png": "/React-Portfolio-site/static/media/R.P._foundation.fe7ecfe4b9eb9e22351a.png",
     "static/media/keshabIntl.png": "/React-Portfolio-site/static/media/keshabIntl.7cbc088e8db3f0c56eeb.png",
     "static/media/cakehops.png": "/React-Portfolio-site/static/media/cakehops.12fb15088debc27106e3.png",
@@ -10,12 +10,13 @@
     "static/media/hopmeds.png": "/React-Portfolio-site/static/media/hopmeds.e1d052fa3f38b241eedc.png",
     "static/media/programming_bg.jpg": "/React-Portfolio-site/static/media/programming_bg.fb2d73100be0644f02f7.jpg",
     "static/media/hero_bg.jpg": "/React-Portfolio-site/static/media/hero_bg.bb03296b82ada6db6282.jpg",
+    "static/media/Akrosh_logo.png": "/React-Portfolio-site/static/media/Akrosh_logo.12a6cafbed782dccea22.png",
     "index.html": "/React-Portfolio-site/index.html",
-    "main.5ffcab91.css.map": "/React-Portfolio-site/static/css/main.5ffcab91.css.map",
-    "main.e747174e.js.map": "/React-Portfolio-site/static/js/main.e747174e.js.map"
+    "main.7c4fb42c.css.map": "/React-Portfolio-site/static/css/main.7c4fb42c.css.map",
+    "main.35ba3b49.js.map": "/React-Portfolio-site/static/js/main.35ba3b49.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ffcab91.css",
-    "static/js/main.e747174e.js"
+    "static/css/main.7c4fb42c.css",
+    "static/js/main.35ba3b49.js"
   ]
 }
