@@ -1,5 +1,11 @@
 import React from 'react'
-import proimg from '../image/programming_bg.jpg'
+import cakehops from '../image/cakehops.png'
+import hopmeds from '../image/hopmeds.png'
+import keshab from '../image/keshabIntl.png'
+import rpFoundation from '../image/R.P._foundation.png'
+import hopkins from '../image/hopkinst.png'
+import fashionStore from '../image/Fashion_store.png'
+
 
 export default function Project(props) {
 
@@ -13,34 +19,48 @@ export default function Project(props) {
             id: 1,
             title: "Cakehops",
             proDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi officia optio maiores totam error. Dolores autem similique magni rerum laborum!",
-            img: proimg,
+            img: cakehops,
             link: 'www.cakehops.com'
         },
         {
             id: 2,
             title: "Hopmeds",
             proDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi officia optio maiores totam error. Dolores autem similique magni rerum laborum!",
-            img: proimg,
+            img: hopmeds,
             link: 'www.hopmeds.com'
         },
         {
             id: 3,
             title: "Computers Nepal",
             proDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi officia optio maiores totam error. Dolores autem similique magni rerum laborum!",
-            img: proimg,
+            img: keshab,
             link: 'www.hopmeds.com'
         },
         {
             id: 4,
             title: "Hopkins IT Lab",
             proDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi officia optio maiores totam error. Dolores autem similique magni rerum laborum!",
-            img: proimg,
+            img: hopkins,
+            link: 'www.hopkinsit.com'
+        },
+        {
+            id: 5,
+            title: "R.P. Foundation",
+            proDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi officia optio maiores totam error. Dolores autem similique magni rerum laborum!",
+            img: rpFoundation,
+            link: 'www.hopkinsit.com'
+        },
+        {
+            id: 6,
+            title: "Fashion Store",
+            proDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi officia optio maiores totam error. Dolores autem similique magni rerum laborum!",
+            img: fashionStore,
             link: 'www.hopkinsit.com'
         }
     ]
     return (
         <div className='projectmain' id='project'>
-            <h2 className='secTitle'>Projects {props.name}</h2>
+            <h2 className='secTitle'>Recent Projects</h2>
             <div className="projectContainer">
                 {portfolioList.map((d) => (
                     <div key={d.id} className="projectCard">
@@ -51,7 +71,7 @@ export default function Project(props) {
                         </div>
                         <div className="projectImg">
                             <figure>
-                                <img src={d.img} alt="" />
+                                <img src={d.img} alt={d.title} />
                             </figure>
                         </div>
                     </div>

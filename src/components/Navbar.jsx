@@ -1,9 +1,10 @@
 import React from 'react'
+import logo from '../image/Akrosh_logo.png'
 
 export default function Navbar() {
     return (
         <div className='NavMain'>
-            <div className="logo"><a href="#home">AKROSH</a></div>
+            <div className="logo"><a href="#home"><img src={logo} alt='Akrosh logo' /></a></div>
 
             <div className="nav">
                 <div className="hamburger" id='menuToggle'>
