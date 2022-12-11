@@ -54,10 +54,11 @@ ul li {
 }
 
 .logo a img {
-  max-width: 100px;
+  margin-top: 5px;
+  max-width: 90px;
+  border-radius: 2px;
 }
 
-#dark .logo a,
 #dark .nav ul li a {
   color: #fff;
 }
@@ -115,35 +116,6 @@ ul li {
   z-index: 15;
   justify-content: space-between;
   align-items: center;
-}
-
-.NavMain .logo {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--light-black);
-}
-
-
-.logo a {
-  color: var(--light-black);
-  border: 2px solid transparent;
-  transition: all 0.4s ease;
-  padding: 7px;
-  border-radius: 2px;
-}
-
-.logo a:hover {
-  border: 2px solid #333;
-}
-
-@keyframes border_animation {
-  0% {
-    border: 2px solid #0a7dd8;
-  }
-
-  50% {
-    border: 2px solid #f5a623;
-  }
 }
 
 .navItem {
@@ -272,14 +244,14 @@ ul li {
   gap: 30px;
   padding-left: 5%;
   padding-right: 5%;
-  background: url(./image/hero_bg.jpg) no-repeat center;
+  background: url(./image/hero_bg.webp) no-repeat center;
   background-size: cover;
   position: relative;
   z-index: 1;
 }
 
 #dark .HeroMain {
-  background: url(./image/programming_bg.jpg) no-repeat center;
+  background: url(./image/programming_bg.webp) no-repeat center;
 }
 
 .HeroMain ::after {
@@ -292,7 +264,7 @@ ul li {
   right: 0;
   bottom: 0;
   z-index: -1;
-  background-color: rgba(0, 0, 0, 0.114);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .heroText {
@@ -346,7 +318,7 @@ ul li {
 
 /* About CSS */
 .aboutMain {
-  padding: 30px 5%;
+  padding: 50px 5% 30px 5%;
 }
 
 .aboutContainer {
@@ -398,8 +370,9 @@ ul li {
 .profileCont {
   height: 200px;
   width: 200px;
-  border-radius: 50%;
+  border-radius: 70px 20px 20px 1px;
   overflow: hidden;
+  object-fit: cover;
 }
 
 .profileCont img {
@@ -474,7 +447,10 @@ ul li {
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid var(--orange);
+  background-color: #fff;
+  padding: 7px;
 }
+
 
 .serviceCard:hover .serviceImg {
   border: 3px solid #fff;

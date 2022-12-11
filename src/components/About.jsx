@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutProf from '../image/profile.png';
+import aboutProf from '../image/profile.jpg';
 
 export default function About() {
     return (
@@ -7,9 +7,8 @@ export default function About() {
             <h2 className="secTitle">About Me</h2>
             <div className="aboutContainer">
                 <div className="aboutText">
-                    <h3>Akrosh Tiwari</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic quis provident saepe voluptatem similique quos obcaecati dolorem vero adipisci consequuntur culpa sit perspiciatis quisquam sed quas illum officia, ipsa ut.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolorum perferendis vero iusto est. Reiciendis.</p>
+                    {/* <h3>Akrosh Tiwari</h3> */}
+                    <p>I am a Front-End developer over 2 years of experience. I’m an enthusiastic, responsible, and hardworking IT person working on different projects. I can work well both in a team environment as well as using my initiative. I can work well under pressure and adhere to strict deadlines.</p>
                 </div>
                 <div className="aboutProfie">
                     <div className="profBack">

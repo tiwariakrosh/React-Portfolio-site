@@ -19,6 +19,11 @@ export default function Contact() {
         e.target.reset()
     };
 
+    const getCurrentYear = () => {
+        return new Date().getFullYear();
+    };
+
+
     return (
         <div className='contactMain' id='contact'>
             <h2 className='secTitle'>Contact Me</h2>
@@ -26,9 +31,9 @@ export default function Contact() {
                 <div className="contactForm">
                     <div className="socialLinks">
                         <ul>
-                            <li><a href="!#"><span className=''></span>Linkedin</a></li>
-                            <li><a href="!#"><span className=''></span>Github</a></li>
-                            <li><a href="!#"><span className=''></span>Instagram</a></li>
+                            <li><a href="https://www.linkedin.com/in/akrosh-tiwari-9a1a42167/" target='_blank'><span className=''></span>Linkedin</a></li>
+                            <li><a href="https://github.com/tiwariakrosh" target='_blank'><span className=''></span>Github</a></li>
+                            <li><a href="https://www.instagram.com/iam_akrosh_tiwari/" target='_blank' ><span className=''></span>Instagram</a></li>
                         </ul>
                     </div>
                     <form ref={form} onSubmit={sendEmail}>
@@ -51,7 +56,7 @@ export default function Contact() {
                 </div>
             </div>
             <footer>
-                <p>Copyright © 2022 Akrosh.all rights reserved</p>
+                <p>Akrosh Tiwari &copy; {getCurrentYear()}, all rights reserved</p>
             </footer>
         </div>
     )

@@ -1,10 +1,10 @@
 import React from 'react'
-import cakehops from '../image/cakehops.png'
-import hopmeds from '../image/hopmeds.png'
-import keshab from '../image/keshabIntl.png'
-import rpFoundation from '../image/R.P._foundation.png'
-import hopkins from '../image/hopkinst.png'
-import fashionStore from '../image/Fashion_store.png'
+import cakehops from '../image/cakehops.webp'
+import hopmeds from '../image/hopmeds.webp'
+import keshab from '../image/keshabIntl.webp'
+import rpFoundation from '../image/R.P._foundation.webp'
+import hopkins from '../image/hopkinst.webp'
+import fashionStore from '../image/Fashion_store.webp'
 
 
 export default function Project(props) {

@@ -1,30 +1,33 @@
 import React from 'react'
-import simg from '../image/profile.png';
+import coding from '../image/coding.png';
+import designing from '../image/graphic-design.png';
+import wordpres from '../image/wordpress-logo.png';
+import seo from '../image/seo.png';
 export default function Service() {
     const serviceList = [
         {
             id: 1,
             title: 'Frontend Design',
             brefDesc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis eaque reprehenderit cum beatae ratione eum! Temporibus expedita doloribus tempora asperiores?',
-            img: simg
+            img: coding
         },
         {
             id: 2,
             title: 'Graphic Design',
             brefDesc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis eaque reprehenderit cum beatae ratione eum! Temporibus expedita doloribus tempora asperiores?',
-            img: simg
+            img: designing
         },
         {
             id: 3,
             title: 'Wordpress Design',
             brefDesc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis eaque reprehenderit cum beatae ratione eum! Temporibus expedita doloribus tempora asperiores?',
-            img: simg
+            img: wordpres
         },
         {
             id: 4,
-            title: 'Branding',
+            title: 'SEO',
             brefDesc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis eaque reprehenderit cum beatae ratione eum! Temporibus expedita doloribus tempora asperiores?',
-            img: simg
+            img: seo
         },
     ]
     return (
