@@ -3,13 +3,14 @@ import coding from '../image/coding.png';
 import designing from '../image/graphic-design.png';
 import wordpres from '../image/wordpress-logo.png';
 import seo from '../image/seo.png';
+
 export default function Service() {
     const serviceList = [
         {
             id: 1,
             title: 'Frontend Design',
             tools: 'HTML5, CSS3, JavaScript, ES6, ReactJs, Bootstrap, and Jquery.',
-            brefDesc: 'Responsive websites built for an optimal user experience that aachives your business goals.',
+            brefDesc: 'Responsive websites are built for an optimal user experience that achieves your business goals.',
             img: coding
         },
         {
@@ -23,14 +24,14 @@ export default function Service() {
             id: 3,
             title: 'Wordpress Design',
             tools: 'Elementor, WPForms, and WooCommerce.',
-            brefDesc: 'Updating and maintaining your wordpress websites and custon wordpress theme development as well as WordPress CMS.',
+            brefDesc: 'Updating and maintaining your WordPress websites and custom WordPress theme development as well as WordPress CMS.',
             img: wordpres
         },
         {
             id: 4,
             title: 'SEO',
             tools: 'Google Analytics, Seobility, and W3c Validator.',
-            brefDesc: 'Increasing the visibility of a website in search engine results, number of visitors to the website, and overall quality of the website.',
+            brefDesc: 'Increasing the visibility of a website in search engine results, the number of visitors to the website, and the overall quality of the website.',
             img: seo
         },
     ]
@@ -41,7 +42,7 @@ export default function Service() {
                 {serviceList.map((data) => (
                     <div key={data.id} className="serviceCard">
                         <div className="serviceImg">
-                            <img src={data.img} alt="" />
+                            <img src={data.img} alt={data.title} />
                         </div>
                         <h4>{data.title}</h4>
                         <p><strong>Tools Use : </strong>{data.tools}</p>

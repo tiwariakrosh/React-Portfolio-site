@@ -23,7 +23,6 @@ export default function Contact() {
         return new Date().getFullYear();
     };
 
-
     return (
         <div className='contactMain' id='contact'>
             <h2 className='secTitle'>Contact Me</h2>

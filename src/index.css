@@ -44,6 +44,10 @@ ul li {
   text-decoration: none;
 }
 
+img {
+  transition: all .4s ease;
+}
+
 #light .NavMain {
   color: var(--black);
 }
@@ -109,13 +113,13 @@ ul li {
 .NavMain {
   box-shadow: rgb(3 27 78 / 10%) 0px 2px 4px;
   display: flex;
-  min-height: 65px;
   padding: 0px 5%;
   position: relative;
   width: 100%;
   z-index: 15;
   justify-content: space-between;
   align-items: center;
+  height: 70px;
 }
 
 .navItem {
@@ -129,7 +133,6 @@ ul li {
   position: relative;
   padding-bottom: 10px;
   border-bottom: 2px solid rgba(214, 0, 0, 0);
-  transition: all .3s ease;
 }
 
 .nav ul li a:hover,
@@ -206,10 +209,11 @@ ul li {
   .navItem {
     position: absolute;
     width: 300px;
-    top: 64px;
+    top: 70px;
     display: flex;
     text-align: center;
     flex-direction: column;
+    height: calc(100vh - 65px);
     padding: 50px;
     padding-top: 50px;
     background: #fafafa;
@@ -239,7 +243,7 @@ ul li {
 .HeroMain {
   display: flex;
   align-items: center;
-  height: calc(100vh - 70px);
+  height: calc(100vh - 65px);
   width: 100%;
   gap: 30px;
   padding-left: 5%;
@@ -304,6 +308,14 @@ ul li {
   border: 1px solid var(--orange);
   background: transparent;
   color: var(--orange);
+}
+
+.imgContainer img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: auto;
 }
 
 @media screen and (max-width: 776px) {
@@ -385,6 +397,10 @@ ul li {
   object-fit: cover;
 }
 
+.aboutContainer:hover img {
+  transform: scale(1.1);
+}
+
 .profileCont img {
   width: 100%;
 }
@@ -436,7 +452,7 @@ ul li {
   padding: 25px;
   border-radius: 7px;
   background-color: #fff;
-  transition: all .4s ease;
+  transition: all .5s ease-in;
 }
 
 .serviceCard:hover {
@@ -464,6 +480,10 @@ ul li {
 
 .serviceCard:hover .serviceImg {
   border: 3px solid #fff;
+}
+
+.serviceCard:hover img {
+  transform: scale(1.1);
 }
 
 .serviceImg img {
@@ -564,6 +584,12 @@ ul li {
   width: 100%;
   height: inherit;
 }
+
+.projectCard:hover img {
+  transform: scale(1.07);
+}
+
+
 
 @media screen and (max-width: 1100px) {
   .projectContainer {
@@ -745,7 +771,6 @@ footer {
 .contactMap iframe {
   height: 500px;
   width: 100%;
-
 }
 
 @media screen and (max-width: 776px) {
