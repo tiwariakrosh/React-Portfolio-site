@@ -326,6 +326,14 @@ ul li {
   gap: 30px;
   align-items: center;
   margin-top: 30px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: var(--shadow);
+}
+
+#dark .aboutContainer {
+  background-color: var(--light-black);
 }
 
 .aboutText {
@@ -365,6 +373,7 @@ ul li {
   width: 220px;
   background-color: #d669415b;
   border-radius: 51% 49% 29% 71% / 46% 41% 59% 54%;
+  border: 2px solid var(--orange);
 }
 
 .profileCont {
@@ -518,7 +527,7 @@ ul li {
 
 .proBtn {
   background: var(--orange-gradient);
-  min-height: 50px;
+  min-height: 44px;
   border-radius: 6px;
   color: #fff;
   display: flex;

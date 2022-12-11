@@ -18,44 +18,45 @@ export default function Project(props) {
         {
             id: 1,
             title: "Cakehops",
-            proDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi officia optio maiores totam error. Dolores autem similique magni rerum laborum!",
+            proDesc: "Ecommerce website where users can buy and sell cake items. Technologies use HTML, CSS, Javascript, Bootstrap, Jquery and Media Queries",
             img: cakehops,
-            link: 'www.cakehops.com'
+            link: 'https://cakehops.com/'
         },
         {
             id: 2,
             title: "Hopmeds",
-            proDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi officia optio maiores totam error. Dolores autem similique magni rerum laborum!",
+            proDesc: "Ecommerce website where users can buy and sell medicines and medical equipments. Technologies use HTML, CSS, Javascript, Bootstrap, Jquery and Media Queries",
             img: hopmeds,
-            link: 'www.hopmeds.com'
+            link: 'https://hopmeds.com/'
         },
         {
             id: 3,
             title: "Computers Nepal",
-            proDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi officia optio maiores totam error. Dolores autem similique magni rerum laborum!",
+            proDesc: "Ecommerce website where users can buy computer releted items. Technologies use HTML, CSS, Javascript, Bootstrap, Jquery and Media Queries",
             img: keshab,
-            link: 'www.hopmeds.com'
+            link: 'https://computersnepal.com/'
         },
         {
             id: 4,
             title: "Hopkins IT Lab",
-            proDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi officia optio maiores totam error. Dolores autem similique magni rerum laborum!",
+            proDesc: "IT Company website. It's a completely responsive, user-friendly, and cross-browser compatibility supports.Technologies use HTML, CSS, Javascript, Bootstrap, Jquery and Media Queries",
             img: hopkins,
-            link: 'www.hopkinsit.com'
+            link: 'https://hopkinsit.com.np/'
         },
         {
             id: 5,
             title: "R.P. Foundation",
-            proDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi officia optio maiores totam error. Dolores autem similique magni rerum laborum!",
+            proDesc: "Organization website where users can buy and sell cake items. Technologies use HTML, CSS, Javascript, Bootstrap, Jquery and Media Queries",
             img: rpFoundation,
-            link: 'www.hopkinsit.com'
+            link: 'https://rpfoundation.com.np/'
         },
         {
             id: 6,
             title: "Fashion Store",
-            proDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi officia optio maiores totam error. Dolores autem similique magni rerum laborum!",
+            proDesc: "Ecommerce website where users can buy and sell Fashion items. Technologies use WordPress, WooCommerce, WPForms,and Elementer",
+            tools: 'Wordpress, WooCommwece, Whistify, ',
             img: fashionStore,
-            link: 'www.hopkinsit.com'
+            link: 'https://ecommerce-store.lovestoblog.com/'
         }
     ]
     return (
@@ -67,7 +68,7 @@ export default function Project(props) {
                         <div className="projectDesc">
                             <h3>{d.title}</h3>
                             <p>{d.proDesc}</p>
-                            <button className='proBtn' onClick={() => openInNewTab(d.link)}>Live Demo</button>
+                            <button className='proBtn' onClick={() => openInNewTab(d.link)}>Visit Site</button>
                         </div>
                         <div className="projectImg">
                             <figure>

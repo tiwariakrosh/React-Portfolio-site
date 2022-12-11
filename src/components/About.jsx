@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutProf from '../image/profile.jpg';
+import aboutProf from '../image/profile (1).png';
 
 export default function About() {
     return (
@@ -7,8 +7,7 @@ export default function About() {
             <h2 className="secTitle">About Me</h2>
             <div className="aboutContainer">
                 <div className="aboutText">
-                    {/* <h3>Akrosh Tiwari</h3> */}
-                    <p>I am a Front-End developer over 2 years of experience. I’m an enthusiastic, responsible, and hardworking IT person working on different projects. I can work well both in a team environment as well as using my initiative. I can work well under pressure and adhere to strict deadlines.</p>
+                    <p>I am a Front-End developer with a passion for the latest technology and interactive design. I develop a Website and web applications using HTML, CSS, Bootstrap, Javascript, ReactJs, WordPress, PHP, Laravel, and MySQL. I have Knowledge in Responsive design, Cross Browser Compatibility, Code Optimization to improve performance and, fixing UI bugs.</p>
                 </div>
                 <div className="aboutProfie">
                     <div className="profBack">
