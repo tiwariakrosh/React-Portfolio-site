@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/akroshtiwari_portfolio/static/css/main.04fef06d.css",
-    "main.js": "/akroshtiwari_portfolio/static/js/main.b7c2092d.js",
+    "main.js": "/akroshtiwari_portfolio/static/js/main.aeaa7f3f.js",
     "static/media/R.P._foundation.webp": "/akroshtiwari_portfolio/static/media/R.P._foundation.16ca41c96bd7c776c5d8.webp",
     "static/media/keshabIntl.webp": "/akroshtiwari_portfolio/static/media/keshabIntl.9ed9e7d3bfeb2041d7ab.webp",
     "static/media/hopmeds.webp": "/akroshtiwari_portfolio/static/media/hopmeds.180e0cbba3eaed5e1b2c.webp",
@@ -18,10 +18,10 @@
     "static/media/Akrosh_logo.png": "/akroshtiwari_portfolio/static/media/Akrosh_logo.12a6cafbed782dccea22.png",
     "index.html": "/akroshtiwari_portfolio/index.html",
     "main.04fef06d.css.map": "/akroshtiwari_portfolio/static/css/main.04fef06d.css.map",
-    "main.b7c2092d.js.map": "/akroshtiwari_portfolio/static/js/main.b7c2092d.js.map"
+    "main.aeaa7f3f.js.map": "/akroshtiwari_portfolio/static/js/main.aeaa7f3f.js.map"
   },
   "entrypoints": [
     "static/css/main.04fef06d.css",
-    "static/js/main.b7c2092d.js"
+    "static/js/main.aeaa7f3f.js"
   ]
 }
