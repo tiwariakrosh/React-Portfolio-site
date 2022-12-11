@@ -6,7 +6,7 @@ export default function Hero() {
         <div className='HeroMain'>
             <div className="heroText">
                 <h2>Hello,</h2>
-                <h1>I'm <span>Akrosh Tiwari</span><br /><span>Front-End Developer</span></h1>
+                <h1>I'm Akrosh Tiwari<br />Front-End Developer</h1>
                 <button className='resumeDownload'>Download Resume</button>
             </div>
             {/* <div className="heroProfile">

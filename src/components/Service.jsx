@@ -31,7 +31,7 @@ export default function Service() {
             id: 4,
             title: 'SEO',
             tools: 'Google Analytics, Seobility, and W3c Validator.',
-            brefDesc: 'Increasing the visibility of a website in search engine results, the number of visitors to the website, and the overall quality of the website.',
+            brefDesc: 'Increasing the visibility of a website in search engine results, a number of visitors to the website, and the overall quality of the website.',
             img: seo
         },
     ]
