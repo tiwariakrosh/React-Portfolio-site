@@ -239,15 +239,16 @@ ul li {
 .HeroMain {
   display: flex;
   align-items: center;
-  height: 600px;
+  height: calc(100vh - 70px);
   width: 100%;
   gap: 30px;
   padding-left: 5%;
   padding-right: 5%;
-  background: url(./image/hero_bg.webp) no-repeat center;
+  background: url(./image/setup_bg.webp) no-repeat center;
   background-size: cover;
   position: relative;
   z-index: 1;
+  width: 100%;
 }
 
 #dark .HeroMain {
