@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/akroshtiwari_portfolio/static/css/main.1123dabb.css",
-    "main.js": "/akroshtiwari_portfolio/static/js/main.04c39a16.js",
+    "main.css": "/akroshtiwari_portfolio/static/css/main.04fef06d.css",
+    "main.js": "/akroshtiwari_portfolio/static/js/main.b7c2092d.js",
     "static/media/R.P._foundation.webp": "/akroshtiwari_portfolio/static/media/R.P._foundation.16ca41c96bd7c776c5d8.webp",
     "static/media/keshabIntl.webp": "/akroshtiwari_portfolio/static/media/keshabIntl.9ed9e7d3bfeb2041d7ab.webp",
     "static/media/hopmeds.webp": "/akroshtiwari_portfolio/static/media/hopmeds.180e0cbba3eaed5e1b2c.webp",
-    "static/media/profile (1).png": "/akroshtiwari_portfolio/static/media/profile (1).6d69d752774ce29cf222.png",
+    "static/media/setup_bg.webp": "/akroshtiwari_portfolio/static/media/setup_bg.bc8b5372db60cd5e082f.webp",
+    "static/media/profile.png": "/akroshtiwari_portfolio/static/media/profile.43164757c38238efa244.png",
     "static/media/cakehops.webp": "/akroshtiwari_portfolio/static/media/cakehops.2bc7707383b969317a93.webp",
     "static/media/hopkinst.webp": "/akroshtiwari_portfolio/static/media/hopkinst.98a30d010f00ceb35641.webp",
     "static/media/Fashion_store.webp": "/akroshtiwari_portfolio/static/media/Fashion_store.f1490bbd3d59bc3f069e.webp",
     "static/media/programming_bg.webp": "/akroshtiwari_portfolio/static/media/programming_bg.c53f39d64fdb2483c2b0.webp",
     "static/media/graphic-design.png": "/akroshtiwari_portfolio/static/media/graphic-design.99b82cd8c51b6d637b4d.png",
     "static/media/coding.png": "/akroshtiwari_portfolio/static/media/coding.ad02d63870968fd4d1e7.png",
-    "static/media/hero_bg.webp": "/akroshtiwari_portfolio/static/media/hero_bg.20db580e57e62fd48b4b.webp",
     "static/media/seo.png": "/akroshtiwari_portfolio/static/media/seo.835ce6e95082221a1f8d.png",
     "static/media/wordpress-logo.png": "/akroshtiwari_portfolio/static/media/wordpress-logo.9fa09f4e51c34ddc63d1.png",
     "static/media/Akrosh_logo.png": "/akroshtiwari_portfolio/static/media/Akrosh_logo.12a6cafbed782dccea22.png",
     "index.html": "/akroshtiwari_portfolio/index.html",
-    "main.1123dabb.css.map": "/akroshtiwari_portfolio/static/css/main.1123dabb.css.map",
-    "main.04c39a16.js.map": "/akroshtiwari_portfolio/static/js/main.04c39a16.js.map"
+    "main.04fef06d.css.map": "/akroshtiwari_portfolio/static/css/main.04fef06d.css.map",
+    "main.b7c2092d.js.map": "/akroshtiwari_portfolio/static/js/main.b7c2092d.js.map"
   },
   "entrypoints": [
-    "static/css/main.1123dabb.css",
-    "static/js/main.04c39a16.js"
+    "static/css/main.04fef06d.css",
+    "static/js/main.b7c2092d.js"
   ]
 }
